@@ -1,0 +1,548 @@
+{
+  "generated_at": "2026-02-26T09:23:07.706929Z",
+  "sources": [
+    {
+      "id": "openai_blog",
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/news/rss.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "anthropic_news",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "google_deepmind_blog",
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "google_ai_blog",
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "meta_ai_blog",
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/rss/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "microsoft_ai_blog",
+      "name": "Microsoft AI Blog",
+      "url": "https://blogs.microsoft.com/ai/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "nvidia_blog_ai",
+      "name": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/blog/category/ai/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "aws_ml_blog",
+      "name": "AWS Machine Learning Blog",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "azure_ai_blog",
+      "name": "Azure AI Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/topics/ai-machine-learning/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "huggingface_blog",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "pytorch_blog",
+      "name": "PyTorch Blog",
+      "url": "https://pytorch.org/blog/feed.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "databricks_blog_ai",
+      "name": "Databricks AI Blog",
+      "url": "https://www.databricks.com/blog/category/ai/feed",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "mistral_news",
+      "name": "Mistral News",
+      "url": "https://mistral.ai/news/rss.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "stability_blog",
+      "name": "Stability AI Blog",
+      "url": "https://stability.ai/news/rss",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "deep_learning_ai_batch",
+      "name": "The Batch (DeepLearning.AI)",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "bens_bites",
+      "name": "Ben's Bites",
+      "url": "https://news.bensbites.com/feed",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "the_neuron",
+      "name": "The Neuron",
+      "url": "https://www.theneurondaily.com/rss.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "the_rundown_ai",
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/rss.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "venturebeat_ai",
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "techcrunch_ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "the_verge_ai",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "reuters_technology",
+      "name": "Reuters Technology",
+      "url": "https://feeds.reuters.com/reuters/technologyNews",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "ap_technology",
+      "name": "AP Technology",
+      "url": "https://apnews.com/hub/technology?output=1",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "ft_technology",
+      "name": "Financial Times Technology (headlines)",
+      "url": "https://www.ft.com/technology?format=rss",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "hackernews_frontpage",
+      "name": "Hacker News Frontpage",
+      "url": "https://hnrss.org/frontpage",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "github_trending_python",
+      "name": "GitHub Trending Python",
+      "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "github_trending_overall",
+      "name": "GitHub Trending Overall",
+      "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "semafor_tech",
+      "name": "Semafor Tech",
+      "url": "https://www.semafor.com/feeds/technology",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "semianalysis_public",
+      "name": "SemiAnalysis (public posts)",
+      "url": "https://semianalysis.com/feed/",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    },
+    {
+      "id": "oecd_ai_news",
+      "name": "OECD AI Policy Observatory News",
+      "url": "https://oecd.ai/en/rss/news.xml",
+      "ok": false,
+      "method": null,
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "title": "Bootstrap AI Item 1",
+      "url": "https://example.com/ai-news/1",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 2",
+      "url": "https://example.com/ai-news/2",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 3",
+      "url": "https://example.com/ai-news/3",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 4",
+      "url": "https://example.com/ai-news/4",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 5",
+      "url": "https://example.com/ai-news/5",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 6",
+      "url": "https://example.com/ai-news/6",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 7",
+      "url": "https://example.com/ai-news/7",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 8",
+      "url": "https://example.com/ai-news/8",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 9",
+      "url": "https://example.com/ai-news/9",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 10",
+      "url": "https://example.com/ai-news/10",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 11",
+      "url": "https://example.com/ai-news/11",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 12",
+      "url": "https://example.com/ai-news/12",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 13",
+      "url": "https://example.com/ai-news/13",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 14",
+      "url": "https://example.com/ai-news/14",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 15",
+      "url": "https://example.com/ai-news/15",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 16",
+      "url": "https://example.com/ai-news/16",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 17",
+      "url": "https://example.com/ai-news/17",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 18",
+      "url": "https://example.com/ai-news/18",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 19",
+      "url": "https://example.com/ai-news/19",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 20",
+      "url": "https://example.com/ai-news/20",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 21",
+      "url": "https://example.com/ai-news/21",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 22",
+      "url": "https://example.com/ai-news/22",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 23",
+      "url": "https://example.com/ai-news/23",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 24",
+      "url": "https://example.com/ai-news/24",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 25",
+      "url": "https://example.com/ai-news/25",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 26",
+      "url": "https://example.com/ai-news/26",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 27",
+      "url": "https://example.com/ai-news/27",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 28",
+      "url": "https://example.com/ai-news/28",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 29",
+      "url": "https://example.com/ai-news/29",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    },
+    {
+      "title": "Bootstrap AI Item 30",
+      "url": "https://example.com/ai-news/30",
+      "published": "1970-01-01T00:00:00+00:00",
+      "summary": "Bootstrap placeholder when network fetching is fully blocked; replace with live data when available.",
+      "source": "bootstrap",
+      "source_id": "bootstrap",
+      "source_weight": 0.1
+    }
+  ],
+  "bootstrap_fallback_used": "skills/ai-news-app-radar/references/bootstrap_candidates.json"
+}
