@@ -11,9 +11,16 @@ Follow this workflow to produce a high-signal daily brief in Chinese with tracea
 
 Generate three outputs:
 
-1. **Daily digest (10–20 items)**
+1. **Daily digest (exactly 30 selected items)**
 2. **Application radar (5–10 items)**
 3. **Weekly trend recap**
+4. **Rejection log (all non-selected candidates with reasons)**
+
+Daily operation target:
+
+- Collect candidate pool first, then select exactly 30 items for daily digest.
+- Keep transparent review trail: every non-selected candidate must be recorded with one clear rejection reason.
+- If candidate pool < 30 after quality checks, explicitly report shortage and why.
 
 For each digest item, always output:
 
@@ -23,6 +30,12 @@ For each digest item, always output:
 - 影响解读（1 段）
 - 观点对照（至少两个不同来源）
 - 原文链接（按可信度排序）
+
+For each rejected item, always output:
+
+- 原始标题
+- 来源
+- 不入选理由（单行、可审计，例如“重复报道”“信源不足”“与主题弱相关”“缺少可核实链接”）
 
 ## 2) Use 3-layer source strategy
 
@@ -43,7 +56,22 @@ Implement these modules in order:
 3. `normalize`: standardize title/time/author/summary/url/source.
 4. `dedupe_cluster`: URL dedupe + title similarity + optional embedding clustering.
 5. `rank_filter`: source weight + novelty + topic preference + multi-source coverage.
-6. `summarize_output`: generate Chinese digest with citation links and viewpoint comparison.
+6. `selection_audit`: output selected=30 and rejected list with reasons.
+7. `summarize_output`: generate Chinese digest with citation links and viewpoint comparison.
+
+## 3.1) Enforce deterministic output folder structure
+
+Write outputs only into one dated folder. Do not scatter files.
+
+- Root folder: `outputs/`
+- Daily folder: `outputs/YYYY-MM-DD/`
+- Required files:
+  1. `daily_digest.md` (30 selected items)
+  2. `application_radar.md`
+  3. `rejection_log.md` (all non-selected candidates + reasons)
+  4. `run_summary.md` (counts, source stats, warnings)
+
+If weekly recap is generated that day, save as `weekly_trends.md` in the same dated folder.
 
 ## 4) Apply taxonomy tags
 
@@ -72,6 +100,8 @@ Tag each item with multi-label taxonomy.
 - Mark uncertain claims as “据…报道/尚未证实”.
 - Keep viewpoint diversity for policy/safety topics.
 - Respect copyright and paywalls; summarize only accessible content.
+- Keep strict formatting consistency: every markdown file must use headings + bullet lists + numbered sections where applicable.
+- Keep titles explicit and human-readable; avoid ambiguous or duplicate headlines.
 
 ## 6) Use bundled references
 
