@@ -73,32 +73,6 @@ Write outputs only into one dated folder. Do not scatter files.
 
 If weekly recap is generated that day, save as `weekly_trends.md` in the same dated folder.
 
-## 3.2) Handle RSS 403/blocked network (required)
-
-When direct RSS fetch fails (e.g., `Tunnel connection failed: 403 Forbidden`), do not stop.
-
-Run bundled script first:
-
-```bash
-python skills/ai-news-app-radar/scripts/resilient_feed_fetch.py \
-  --registry skills/ai-news-app-radar/references/source_registry_free.yaml \
-  --out outputs/YYYY-MM-DD/candidates.json \
-  --cache-glob "outputs/*/candidates.json" \
-  --bootstrap skills/ai-news-app-radar/references/bootstrap_candidates.json
-```
-
-The script automatically tries multiple methods per source:
-
-1. direct URL
-2. `r.jina.ai` mirror path
-3. `r.jina.ai/{url}` mirror path
-4. RSSHub conversion fallback
-
-Then continue ranking/selection from `candidates.json`.
-
-If some sources still fail, continue with partial candidates and record per-source failures in `run_summary.md` under “抓取失败来源列表”.
-- If all network methods fail, fallback to latest local `outputs/*/candidates.json` cache and mark it in run summary as `cache_fallback_used`.
-- If no network data and no local cache are available, load `references/bootstrap_candidates.json` to keep pipeline outputs deterministic, and mark items as `bootstrap` in run summary for manual replacement later.
 
 ## 4) Apply taxonomy tags
 
