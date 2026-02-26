@@ -1,0 +1,246 @@
+version: 1
+updated_at: "2026-02-26"
+notes:
+  - "MVP free/public sources only."
+  - "Paywalled sources (e.g., The Information, full SemiAnalysis paid posts) are excluded from full-text ingestion."
+
+sources:
+  - id: openai_blog
+    name: OpenAI Blog
+    layer: L2
+    type: rss
+    url: https://openai.com/news/rss.xml
+    weight: 0.80
+    tags: [product, platform, model]
+
+  - id: anthropic_news
+    name: Anthropic News
+    layer: L2
+    type: rss
+    url: https://www.anthropic.com/news/rss.xml
+    weight: 0.80
+    tags: [model, safety, product]
+
+  - id: google_deepmind_blog
+    name: Google DeepMind Blog
+    layer: L2
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    weight: 0.78
+    tags: [research, model, product]
+
+  - id: google_ai_blog
+    name: Google AI Blog
+    layer: L2
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    weight: 0.76
+    tags: [research, product]
+
+  - id: meta_ai_blog
+    name: Meta AI Blog
+    layer: L2
+    type: rss
+    url: https://ai.meta.com/blog/rss/
+    weight: 0.75
+    tags: [research, open-source]
+
+  - id: microsoft_ai_blog
+    name: Microsoft AI Blog
+    layer: L2
+    type: rss
+    url: https://blogs.microsoft.com/ai/feed/
+    weight: 0.75
+    tags: [product, enterprise, copilots]
+
+  - id: nvidia_blog_ai
+    name: NVIDIA AI Blog
+    layer: L2
+    type: rss
+    url: https://blogs.nvidia.com/blog/category/ai/feed/
+    weight: 0.74
+    tags: [infra, chips, ai]
+
+  - id: aws_ml_blog
+    name: AWS Machine Learning Blog
+    layer: L2
+    type: rss
+    url: https://aws.amazon.com/blogs/machine-learning/feed/
+    weight: 0.72
+    tags: [cloud, application, mlops]
+
+  - id: azure_ai_blog
+    name: Azure AI Blog
+    layer: L2
+    type: rss
+    url: https://azure.microsoft.com/en-us/blog/topics/ai-machine-learning/feed/
+    weight: 0.72
+    tags: [cloud, enterprise, ai]
+
+  - id: huggingface_blog
+    name: Hugging Face Blog
+    layer: L2
+    type: rss
+    url: https://huggingface.co/blog/feed.xml
+    weight: 0.73
+    tags: [open-source, model, tooling]
+
+  - id: pytorch_blog
+    name: PyTorch Blog
+    layer: L2
+    type: rss
+    url: https://pytorch.org/blog/feed.xml
+    weight: 0.72
+    tags: [framework, research, engineering]
+
+  - id: databricks_blog_ai
+    name: Databricks AI Blog
+    layer: L2
+    type: rss
+    url: https://www.databricks.com/blog/category/ai/feed
+    weight: 0.69
+    tags: [data, llm, enterprise]
+
+  - id: mistral_news
+    name: Mistral News
+    layer: L2
+    type: rss
+    url: https://mistral.ai/news/rss.xml
+    weight: 0.70
+    tags: [model, product]
+
+  - id: stability_blog
+    name: Stability AI Blog
+    layer: L2
+    type: rss
+    url: https://stability.ai/news/rss
+    weight: 0.66
+    tags: [image, video, generative]
+
+  - id: deep_learning_ai_batch
+    name: The Batch (DeepLearning.AI)
+    layer: L2
+    type: rss
+    url: https://www.deeplearning.ai/the-batch/feed/
+    weight: 0.78
+    tags: [news, research, application]
+
+  - id: bens_bites
+    name: Ben's Bites
+    layer: L2
+    type: rss
+    url: https://news.bensbites.com/feed
+    weight: 0.67
+    tags: [tools, product, applications]
+
+  - id: the_neuron
+    name: The Neuron
+    layer: L2
+    type: rss
+    url: https://www.theneurondaily.com/rss.xml
+    weight: 0.66
+    tags: [tools, trend, application]
+
+  - id: the_rundown_ai
+    name: The Rundown AI
+    layer: L2
+    type: rss
+    url: https://www.therundown.ai/rss.xml
+    weight: 0.66
+    tags: [daily, tools, product]
+
+  - id: venturebeat_ai
+    name: VentureBeat AI
+    layer: L1
+    type: rss
+    url: https://venturebeat.com/category/ai/feed/
+    weight: 0.82
+    tags: [product, company, funding]
+
+  - id: techcrunch_ai
+    name: TechCrunch AI
+    layer: L1
+    type: rss
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    weight: 0.80
+    tags: [startup, funding, product]
+
+  - id: the_verge_ai
+    name: The Verge AI
+    layer: L1
+    type: rss
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    weight: 0.80
+    tags: [consumer, policy, product]
+
+  - id: reuters_technology
+    name: Reuters Technology
+    layer: L1
+    type: rss
+    url: https://feeds.reuters.com/reuters/technologyNews
+    weight: 0.90
+    tags: [fact-base, business, policy]
+
+  - id: ap_technology
+    name: AP Technology
+    layer: L1
+    type: rss
+    url: https://apnews.com/hub/technology?output=1
+    weight: 0.88
+    tags: [fact-base, policy, incidents]
+
+  - id: ft_technology
+    name: Financial Times Technology (headlines)
+    layer: L1
+    type: rss
+    url: https://www.ft.com/technology?format=rss
+    weight: 0.86
+    tags: [business, market, strategy]
+
+  - id: hackernews_frontpage
+    name: Hacker News Frontpage
+    layer: L2
+    type: rss
+    url: https://hnrss.org/frontpage
+    weight: 0.64
+    tags: [developer, tools, discourse]
+
+  - id: github_trending_python
+    name: GitHub Trending Python
+    layer: L2
+    type: rss
+    url: https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml
+    weight: 0.60
+    tags: [code, tooling, open-source]
+
+  - id: github_trending_overall
+    name: GitHub Trending Overall
+    layer: L2
+    type: rss
+    url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml
+    weight: 0.58
+    tags: [code, tools, momentum]
+
+  - id: semafor_tech
+    name: Semafor Tech
+    layer: L1
+    type: rss
+    url: https://www.semafor.com/feeds/technology
+    weight: 0.76
+    tags: [business, policy, ai]
+
+  - id: semianalysis_public
+    name: SemiAnalysis (public posts)
+    layer: L3
+    type: rss
+    url: https://semianalysis.com/feed/
+    weight: 0.72
+    tags: [chips, infra, deep-analysis]
+
+  - id: oecd_ai_news
+    name: OECD AI Policy Observatory News
+    layer: L3
+    type: rss
+    url: https://oecd.ai/en/rss/news.xml
+    weight: 0.74
+    tags: [policy, regulation, governance]
