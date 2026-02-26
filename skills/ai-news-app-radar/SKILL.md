@@ -52,7 +52,7 @@ Use only free/public content in MVP. Do not rely on paywalled full text.
 Implement these modules in order:
 
 1. `source_registry`: manage source metadata (`type`, `frequency`, `weight`, `tags`, `language`, `access`).
-2. `ingestion`: prioritize RSS; use lightweight web extraction only when RSS is unavailable.
+2. `ingestion`: use resilient fetch chain for RSS (direct -> mirror/proxy -> extraction fallback) to tolerate 403/blocked feeds.
 3. `normalize`: standardize title/time/author/summary/url/source.
 4. `dedupe_cluster`: URL dedupe + title similarity + optional embedding clustering.
 5. `rank_filter`: source weight + novelty + topic preference + multi-source coverage.
@@ -72,6 +72,7 @@ Write outputs only into one dated folder. Do not scatter files.
   4. `run_summary.md` (counts, source stats, warnings)
 
 If weekly recap is generated that day, save as `weekly_trends.md` in the same dated folder.
+
 
 ## 4) Apply taxonomy tags
 
@@ -108,3 +109,5 @@ Tag each item with multi-label taxonomy.
 - Load `references/source_registry_free.yaml` for starter free sources (30 entries).
 - Load `references/output_templates.md` for digest and weekly report formatting.
 - Load `references/scoring.md` for default ranking formula and thresholds.
+- Use `scripts/resilient_feed_fetch.py` for anti-403 resilient ingestion before ranking.
+- Use `references/bootstrap_candidates.json` only as last-resort continuity fallback when all remote fetching is blocked.

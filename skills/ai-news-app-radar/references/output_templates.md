@@ -98,4 +98,3 @@ All generated files must be written into the same `outputs/YYYY-MM-DD/` folder.
 ## 告警与说明
 - {{若候选不足30，说明原因}}
 - {{抓取失败来源列表（如有）}}
-```
