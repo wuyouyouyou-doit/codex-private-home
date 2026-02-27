@@ -98,6 +98,7 @@ All generated files must be written into the same `outputs/YYYY-MM-DD/` folder.
 ## 告警与说明
 - {{若候选不足30，说明原因}}
 - {{抓取失败来源列表（如有）}}
+
 - {{cache_fallback_used: 路径（如使用）}}
 - {{bootstrap_fallback_used: 路径（如使用）}}
 ```
@@ -113,3 +114,5 @@ All generated files must be written into the same `outputs/YYYY-MM-DD/` folder.
    - 错误信息：{{error_message}}
    - 降级状态：{{是否已由其他来源覆盖}}
 ```
+=======
+

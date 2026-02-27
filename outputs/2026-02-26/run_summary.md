@@ -26,3 +26,12 @@
   - Azure AI Blog: <urlopen error Tunnel connection failed: 403 Forbidden>
   - Hugging Face Blog: <urlopen error Tunnel connection failed: 403 Forbidden>
 - bootstrap_fallback_used: skills/ai-news-app-radar/references/bootstrap_candidates.json
+=======
+- 候选总数：0
+- 入选数：0
+- 不入选数：0
+- 来源覆盖数：0
+
+## 告警与说明
+- 候选不足30，原因：可访问 RSS 当日有效条目不足。
+
