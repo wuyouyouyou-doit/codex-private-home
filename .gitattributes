@@ -1,0 +1,3 @@
+# Treat generated daily outputs as machine-generated artifacts.
+# During merges, keep current branch version to avoid manual conflict resolution noise.
+outputs/** merge=ours
